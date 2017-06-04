@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-single
 
 category: "Examples"
 category_lead:  "XML File Examples"
@@ -11,47 +11,17 @@ Commented XML files from maps in the rotation. Files are split up into their ind
 
 <div class="alert alert-warning"><strong>Note!</strong> The XML code examples may be outdated and use depreciated features.<br/> Always check the relevant modules page to make sure that the features or specifications you intend to use are still valid.</div>
 
-<div class='table-responsive'>
-  <table class='table table-striped table-condensed'>
-    <tbody>
-      <tr>
-        <td class="text-center">
-          <div class="pull-center">
-          <img src="/img/examples/arcane_realms.png" alt="Arcane Realms" class="img-responsive center-block" url="/examples/arcane_realms">
-          <br>
-          <div class="alert alert-warning"><strong>Race for Wool</strong></div>
-          <br>
-          <strong>Arcane Realms</strong>
-          </div>
-        </td>
-                <td class="text-center">
-          <div class="pull-center">
-          <img src="/img/examples/arcane_realms.png" alt="Arcane Realms" class="img-responsive center-block" url="/examples/arcane_realms">
-          <br>
-          <div class="alert alert-warning"><strong>Race for Wool</strong></div>
-          <br>
-          <strong>Arcane Realms</strong>
-          </div>
-        </td>
-                <td class="text-center">
-          <div class="pull-center">
-          <img src="/img/examples/arcane_realms.png" alt="Arcane Realms" class="img-responsive center-block" url="/examples/arcane_realms">
-          <br>
-          <div class="alert alert-warning"><strong>Race for Wool</strong></div>
-          <br>
-          <strong>Arcane Realms</strong>
-          </div>
-        </td>
-                <td class="text-center">
-          <div class="pull-center">
-          <img src="/img/examples/arcane_realms.png" alt="Arcane Realms" class="img-responsive center-block" url="/examples/arcane_realms">
-          <br>
-          <div class="alert alert-warning"><strong>Race for Wool</strong></div>
-          <br>
-          <strong>Arcane Realms</strong>
-          </div>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+<div class="row">
+    {% for map in site.data.maps %}
+    <div class="col-sm-12 col-lg-4 center">
+        <div id="{{ map.slug }}" class="thumbnail map-thumbnail">
+            <div class="map-image" style="background-image:url('../img/examples/{{ map.slug }}.png');">
+                <div class="map-banner">
+                    <a href="{{ map.slug }}" class="map-name"><strong>{{ map.name }}</strong></a>
+                    <span class="map-gamemode">{{ map.gamemode}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
 </div>

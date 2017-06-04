@@ -257,3 +257,41 @@ ul.changelog .label {
 #blocks #dataTable tr td.data {
     text-align: right;
 }
+
+/* Custom map thumbnail style */
+.map-thumbnail {
+    float: none;
+    display: inline-block;
+    width: 270px;
+    text-align: left;
+}
+
+.map-image {
+    width: 260px;
+    height: 218px;
+    margin: 0;
+    background-color: #525252;
+    background-size: 260px 218px;
+}
+
+.map-banner {
+    height: 40px;
+    background-color: rgba(255,255,255,0.7);
+    padding-left: 6px;
+    overflow: hidden;
+}
+
+.map-name {
+    font-size: 14px;
+    color: #000;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.map-gamemode {
+    display: block;
+    margin-top: -6px;
+    font-size: 10px;
+    color: #393939;
+}

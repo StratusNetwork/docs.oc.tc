@@ -1,0 +1,24 @@
+- name: "Arcane Realms"
+  slug: "arcane_realms"
+  gamemode: "Race for Wool"
+
+- name: "Harb KoTH"
+  slug: "harb_korth"
+  gamemode: "King of the Flag"
+  
+- name: "Organic"
+  slug: "organic"
+  gamemode: "Destroy the Core"
+    
+- name: "Race for Victory 3"
+  slug: "race_for_victory_3"
+  gamemode: "Capture the Wool"
+  
+- name: "Snowy Wars"
+  slug: "snowy_wars"
+  gamemode: "Destroy the Monument"
+  
+- name: "Storm"
+  slug: "storm"
+  gamemode: "King of the Hill"
+  
