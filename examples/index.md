@@ -13,7 +13,7 @@ Commented XML files from maps in the rotation. Files are split up into their ind
 
 <div class="row">
     {% for map in site.data.maps %}
-    <div class="col-sm-12 col-lg-4 center">
+    <div class="col-sm-6 col-lg-3 center">
         <div id="{{ map.slug }}" class="thumbnail map-thumbnail">
             <div class="map-image" style="background-image:url('../img/examples/{{ map.slug }}.png');">
                 <div class="map-banner">
