@@ -14,3 +14,6 @@ content:
     name: "Pruning Chunks"
   - path: "/guides/packaging/compiling_releasing"
     name: "Compiling and Releasing"
+  - "Physical"
+  - path: "/guides/plugins"
+    name: "Recommended Plugins"
