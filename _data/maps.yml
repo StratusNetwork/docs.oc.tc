@@ -2,8 +2,16 @@
   slug: "arcane_realms"
   gamemode: "Race for Wool"
 
+- name: "Flush"
+  slug: "flush"
+  gamemode: "Capture the Flag"
+  
+- name: "Gleon"
+  slug: "gleon"
+  gamemode: "Team Deathmatch"
+  
 - name: "Harb KoTH"
-  slug: "harb_korth"
+  slug: "harb_koth"
   gamemode: "King of the Flag"
   
 - name: "Organic"
@@ -13,6 +21,10 @@
 - name: "Race for Victory 3"
   slug: "race_for_victory_3"
   gamemode: "Capture the Wool"
+  
+- name: "Seige"
+  slug: "seige"
+  gamemode: "Capture Points"
   
 - name: "Snowy Wars"
   slug: "snowy_wars"
