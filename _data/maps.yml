@@ -10,8 +10,8 @@
   slug: "gleon"
   gamemode: "Team Deathmatch"
   
-- name: "Harb KoTH"
-  slug: "harb_koth"
+- name: "Harb KoTF"
+  slug: "harb_kotf"
   gamemode: "King of the Flag"
   
 - name: "Organic"
