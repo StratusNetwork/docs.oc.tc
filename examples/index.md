@@ -24,6 +24,33 @@ Commented XML files from maps in the rotation. Files are split up into their ind
           <strong>Arcane Realms</strong>
           </div>
         </td>
+                <td class="text-center">
+          <div class="pull-center">
+          <img src="/img/examples/arcane_realms.png" alt="Arcane Realms" class="img-responsive center-block" url="/examples/arcane_realms">
+          <br>
+          <div class="alert alert-warning"><strong>Race for Wool</strong></div>
+          <br>
+          <strong>Arcane Realms</strong>
+          </div>
+        </td>
+                <td class="text-center">
+          <div class="pull-center">
+          <img src="/img/examples/arcane_realms.png" alt="Arcane Realms" class="img-responsive center-block" url="/examples/arcane_realms">
+          <br>
+          <div class="alert alert-warning"><strong>Race for Wool</strong></div>
+          <br>
+          <strong>Arcane Realms</strong>
+          </div>
+        </td>
+                <td class="text-center">
+          <div class="pull-center">
+          <img src="/img/examples/arcane_realms.png" alt="Arcane Realms" class="img-responsive center-block" url="/examples/arcane_realms">
+          <br>
+          <div class="alert alert-warning"><strong>Race for Wool</strong></div>
+          <br>
+          <strong>Arcane Realms</strong>
+          </div>
+        </td>
       </tr>
     </tbody>
   </table>
