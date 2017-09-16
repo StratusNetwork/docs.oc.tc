@@ -152,7 +152,6 @@ Control point give a certain amount of point to the team currently holding it. O
         <td>
           <span class='label label-primary'>Number</span>
         </td>
-        <td colspan='2'>1</td>
       </tr>
       <tr>
         <td>
